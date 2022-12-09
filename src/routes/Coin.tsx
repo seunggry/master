@@ -2,7 +2,7 @@ import { Link, useRouteMatch, Switch, Route, useParams, useLocation } from "reac
 import styled from "styled-components";
 import Price from "./Price";
 import Chart from "./Chart";
-import {fetchCoinInfo, fetchCoins, fetchCoinTickers} from "../api";
+import {fetchCoinInfo, fetchCoinTickers} from "../api";
 import {useQuery} from "react-query";
 
 const Overview = styled.div`
